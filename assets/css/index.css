@@ -1,0 +1,14 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+* {box-sizing: border-box;}
+
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
