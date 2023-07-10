@@ -1,3 +1,23 @@
+/* Main */
+.main__text_big {
+    font-size: calc( var(--index) * 2 );
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #25B385;
+    padding-top: 6.6vh;
+}
+
+.grey {color: #205D5E;}
+
+.main__text_small {
+    font-size: calc( var(--index) * 0.6 );
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
 /* Footer */
 .logo {
     font-size: calc( var(--index) * 1.2 );
@@ -113,4 +133,68 @@
     font-weight: 300;
     color: #000;
     margin-top: -10px;
+}
+
+
+/* Screen 4 */
+.cb__text_big {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: calc( var(--index) * 1.1 );
+    color: white;
+}
+
+.cb__text_small {
+    font-size: calc( var(--index) * 0.5 );
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: calc( var(--index) * 0.6 );
+}
+
+.line-4 {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+}
+
+.bp__text {
+    width: fit-content;
+    font-size: calc( var(--index) * 0.5 );
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: calc( var(--index) * 0.3 ) calc( var(--index) * 0.4 );
+    border: 0.6px rgba(255, 255, 255, 0.4) solid;
+    border-radius: calc( var(--index) * 0.26 );
+}
+
+.bb__button {
+    font-size: calc( var(--index) * 0.7 );
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: calc( var(--index) * 0.1 );
+    color: white;
+    padding: calc( var(--index) * 0.4 ) calc( var(--index) * 1.6 );
+    border: 0.8px rgba(255, 255, 255, 1) solid;
+    border-radius: calc( var(--index) * 0.26 );
+    transition-duration: 300ms;
+}
+.bb__button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(64px);
+}
+
+.line-5 {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 0.6px;
+    height: 100%;
+}
+
+.bb__text_price {
+    font-size: calc( var(--index) * 0.6 );
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    transition-duration: 150ms;
 }

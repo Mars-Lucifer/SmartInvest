@@ -64,3 +64,55 @@
 
 .br__box p {text-align: right;}
 .s1__box_right .line {width: 70%;}
+
+
+/* Screen 4 */
+.s3__box_container {
+    padding-top: 10vh;
+    display: flex;
+    gap: 5%;
+}
+
+.cont__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc( var(--index) * 18.4 );
+    width: calc( var(--index) * 15 );
+    border-radius: calc( var(--index) * 0.4 );
+    background: linear-gradient(135deg, #205D5E 0%, #25B385 100%);
+    flex-shrink: 0;
+    box-shadow: 8px 8px 22px 0px rgba(32, 93, 94, 0.10);
+    transition-duration: 260ms;
+}
+.cont__box:hover {
+    transform: translateY(-6px);
+    box-shadow: 12px 12px 24px 0px rgba(32, 93, 94, 0.10);
+}
+.cont__box:hover .bb__text_price {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cb-2 {background: linear-gradient(135deg, #4CB3A0 0%, #9CE452 100%)}
+.cb-3 {background: linear-gradient(135deg, #CCEFF1 0%, #25B385 100%)}
+
+.cont__box__box {
+    height: 94%;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cb__box_plus {
+    margin-top: calc( var(--index) * 0.6 );
+    display: flex;
+    flex-direction: column;
+    gap: calc( var(--index) * 0.5 );
+}
+
+.cb__box_button {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+}
