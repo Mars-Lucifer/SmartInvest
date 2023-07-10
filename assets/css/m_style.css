@@ -1,3 +1,4 @@
+/* Main */
 .Screen {
     padding-bottom: 14vh;
     position: relative;
@@ -10,8 +11,15 @@
     position: fixed;
     z-index: 2;
 }
-.s2 {height: 100vh; z-index: 1;}
+.s2 {
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
 
+
+/* Footer */
 .Footer {
     display: flex;
     align-items: center;
@@ -25,3 +33,31 @@
     justify-content: center;
     gap: 3vw;
 }
+
+
+/* Screen 2 */
+.s1__box_left {
+    display: flex;
+    flex-direction: column;
+    gap: 14vh;
+}
+
+.s1__box_text_main {
+    display: flex;
+    gap: 6%;
+}
+
+.s1__box_button {
+    display: flex;
+    gap: 2.2vw;
+}
+
+.s1__box_right {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: flex-end;
+}
+
+.br__box p {text-align: right;}
+.s1__box_right .line {width: 70%;}
