@@ -4,6 +4,7 @@
     position: relative;
     width: 100%;
     z-index: 1;
+    height: fit-content;
 }
 
 .s1 {
@@ -68,8 +69,10 @@
 
 /* Screen 4 */
 .s3__box_container {
+    max-width: 100%;
     padding-top: 10vh;
     display: flex;
+    flex-wrap: wrap;
     gap: 5%;
 }
 

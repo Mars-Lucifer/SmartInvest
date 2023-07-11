@@ -103,6 +103,9 @@
     color: #fff;
     flex-shrink: 0;
     transition-duration: 200ms;
+
+    display: flex;
+    align-items: center;
 }
 .s1__button_main:hover {
     transform: translateY(-8px);

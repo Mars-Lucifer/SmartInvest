@@ -12,3 +12,30 @@ body, p {
 body {
     background-color: white;
 }
+
+
+/* Adaptived */
+@media(max-width: 720px) {
+  .s1__box_right {
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .s1__box_right .line {
+    width: 0.8px;
+    height: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .s1__box_left {gap: 6vh;}
+  .br__text_small {margin: 0px;}
+  .s1__box_right {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .line-3 {display: none;}
+}
